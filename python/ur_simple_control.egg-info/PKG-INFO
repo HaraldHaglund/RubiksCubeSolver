@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ur_simple_control
+Version: 0.1
+Summary: Collection of control algorithms for the UR5e arm based on the ur_rtde interface for communication and pinocchio for calculations.
+Home-page: https://gitlab.control.lth.se/marko-g/ur_simple_control
+Author: Marko Guberina
+License-File: LICENSE.txt

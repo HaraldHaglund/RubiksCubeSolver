@@ -1,0 +1,32 @@
+goal 2: clean up the code
+---------------------------
+1. test to see everything works
+2. fix logging a bit (add a function which combines logs of different runs 
+                      of a 'session' or at least names all logs in a run)
+3. use python's logging instead of printing
+
+goal 3:
+----------
+enforce simulation first, or at least make it easy to simulate a thing 
+STARTING FROM THE CURRENT ROBOT POSITION while you're connected.
+basically "--simulate-from-current-pose" 
+to the make the "simulate every time before you run maxim" not annoying.
+
+goal 4: more controllers
+------------------------
+1. finish adding all ik algorithms
+2. crocoddyl optimal control with obstacle avoidance (manipulator itself + table/floor is enough)
+3. [hard] adjusting the dmp to get back on the path despite external forces 
+   (fix the problem of writing on a non-flat surface/whatever) --> publishable side-project
+
+goal 5:
+-------
+include the workspace somehow
+
+finally, do what you promised and put this on another robot,
+thereby rendering this something publishable in joss
+
+goal 5: panda/yumi
+----------------
+1. transfer the library to panda or yumi or both
+
